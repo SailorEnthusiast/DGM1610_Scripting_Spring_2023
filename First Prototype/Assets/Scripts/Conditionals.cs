@@ -29,7 +29,26 @@ public class Conditionals : MonoBehaviour
         {
             Debug.Log("It is cloudy outside");
         }
-        
+        else if (weather == "Raining")
+        {
+            Debug.Log("It is raining outside!");
+        }
+        else if (weather == "Clear")
+        {
+            Debug.Log("It is a beautiful day outside!");
+        }
+        else if (weather == "ThunderLightning")
+        {
+            Debug.Log("There is thunder and lightning outside, stay indoors!!!");
+        }
+        else if (weather == "Snowing")
+        {
+            Debug.Log("It is snowing outside, bundle up it is cold!");
+        }
+        else
+        {
+            Debug.Log("Do what you want! Its a day!");
+        }
     }
 
     // Update is called once per frame
