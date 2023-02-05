@@ -13,15 +13,18 @@ public class Balloon : MonoBehaviour
         
     }
 
-    void onMouseDown() 
+    void OnMouseOver() 
     {
-        clickToPop --; // Reduce clicks by one
-        // Inflate balloon
-        transform.localScale += Vector3.one * scaleToIncrease;
-        // Check to see if click to pop has reached zero. Check to see if the balloon pops
-        if (clickToPop == 0)
+        if(Input.GetMouseButtonDown(0))
         {
-            Destroy(gameObject); //Destroy and remove popped balloon
+            clickToPop --; // Reduce clicks by one
+            // Inflate balloon
+            transform.localScale += Vector3.one * scaleToIncrease;
+            // Check to see if click to pop has reached zero. Check to see if the balloon pops
+            if (clickToPop == 0)
+            {
+                Destroy(gameObject); //Destroy and remove popped balloon
+            }
         }
     }
 }
