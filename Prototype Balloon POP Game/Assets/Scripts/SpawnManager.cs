@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     public int balloonIndex;
     public float xSpawnRange;
     public float ySpawnPos;
-    public float startDelay = 0.5f;
+    public float startDelay = 2.5f;
     public float spawnInterval = 1.5f;
 
     // Start is called before the first frame update
