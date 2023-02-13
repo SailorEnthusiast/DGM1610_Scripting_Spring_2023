@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float speed;
     public float xRange;
+    public Transform Blaster;
+    public GameObject laserBolt;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,13 @@ public class PlayerController : MonoBehaviour
         if(transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange,transform.position.y,transform.position.z);
+        }
+
+        // If spacebar is pressed fire laserbolt
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // Create laserBolt at the blaster transform position maintaining the objects rotation
+            Instantiate(laserBolt, Blaster.transform.position, laserBolt.transform.rotation);
         }
     }
 }
