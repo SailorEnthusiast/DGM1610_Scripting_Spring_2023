@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66107675ca5445545b6da5b896eb80f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 30
 --- !u!114 &6317355885642383464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,6 +59,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79930d6b10d472e4fb5ded190a2ece99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBounds: 30
+  lowBounds: -15
 --- !u!1001 &4650093841889419266
 PrefabInstance:
   m_ObjectHideFlags: 0
