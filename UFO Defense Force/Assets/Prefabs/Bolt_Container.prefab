@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topBounds: 30
-  lowBounds: -15
+  lowBounds: -20
 --- !u!1001 &4650093841889419266
 PrefabInstance:
   m_ObjectHideFlags: 0
