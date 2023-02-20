@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 830765097}
   - component: {fileID: 830765096}
   - component: {fileID: 830765098}
+  - component: {fileID: 712783517734225934}
   m_Layer: 0
   m_Name: UFO Drone
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 2390734597364224231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0.5, z: 10}
-  m_LocalScale: {x: 3.75, y: 1, z: 5}
+  m_LocalScale: {x: 7.5, y: 1, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3539118432141598480}
@@ -143,7 +144,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66107675ca5445545b6da5b896eb80f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -5
+  speed: -7.5
+--- !u!114 &712783517734225934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2390734597364224231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b488a611a2c704f9d9a3f1433d6ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8140570547284662164
 GameObject:
   m_ObjectHideFlags: 0
